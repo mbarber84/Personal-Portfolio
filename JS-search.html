@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="searchScript.js" defer></script>
+</head>
+
+
+<body>
+    <section>
+        <div id="js" class="js">
+            <header class="s-header">
+                <div class="header-logo">
+                    <img class="images" src="images/collegephoto-Me.jpg" alt="Homepage">
+                </div>
+            </header>
+
+            <h1>JavaScript Search Bar</h1>
+
+
+            <section class="div-single">
+                <div class="single">
+
+                    <h3 class="js">All the names in the search are taken from the website JSON Placeholder API:
+                        <a href="url">"https://jsonplaceholder.typicode.com</a>
+                    </h3><br>
+                    <div class="search-wrapper">
+                        <label for="search">Search User: </label>
+                        <input type="search" id="search" data-search>
+                    </div><br>
+
+                    <div class="user-cards" data-user-cards-container>
+                    </div>
+                    <template data-user-template>
+                        <div class="card">
+                            <div class="header" data-header></div>
+                            <div class="body" data-body></div>
+                        </div>
+                    </template><br>
+                </div>
+            </section>
+
+        </div>
+    </section>
+</body>
+
+</html>
